@@ -6,27 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple calculator</title>
     <link rel="stylesheet" href="/calculator.css">
-    <script src="/calculator.js"></script>
+    <script src="/calculator.js" async></script>
 </head>
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="container">
+        <div class="screen">
+            <div data-top-output class="up-output"></div>
+            <div data-bottom-output class="down-output"></div>
+        </div>
+        <button data-all-clear-btn class="span-two">AC</button>
+        <button data-delete-btn>DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>x</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equal-btn class="span-two">=</button>
+    </div>
 </body>
 </html>
